@@ -1,7 +1,7 @@
 # test3270
 Overview
 -----------
-IBM mainframe ISPF applications testing utility. It can be used to test TSO/ISPF applications through a TN3270 connection.
+IBM mainframe ISPF applications testing utility. It can be used to test TSO/ISPF applications through a TN3270 connection. Note: this utility depends on the s3270 utility from the [x3270 package], please install it first - it should be either s3270 for Linux or ws3270 for Windows.
 
 Example
 -----------
@@ -20,3 +20,4 @@ The following shell command can be used to run the above test script:
 $ python test.py -s"server address" -u"TSO username" -p"TSO password"
 ```
 
+[x3270 package]:http://x3270.bgp.nu/download.html

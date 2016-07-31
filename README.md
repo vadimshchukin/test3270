@@ -1,11 +1,11 @@
 # test3270
 Overview
 -----------
-IBM z/OS ISPF applications testing framework. It can be used to test TSO/ISPF applications through a TN3270 connection.
+IBM mainframe ISPF applications testing utility. It can be used to test TSO/ISPF applications through a TN3270 connection.
 
 Example
 -----------
-The following example test script uses the TN3270 terminal module in order to connect to a mainframe, pass authorization, invoke DSLIST utility and print screen content. It also shows the capability of this utlity to automatically invoke SDSF from ISPF Primary Option Menu in order to purge the terminal job before disconnection.
+The following demo test script uses the TN3270 terminal module in order to connect to a mainframe, pass an authorization, invoke DSLIST utility and print the terminal's screen content. It also shows the capability of this utlity to automatically invoke SDSF from ISPF Primary Option Menu in order to purge a terminal job before a disconnection.
 ```py
 from terminal import *
 
